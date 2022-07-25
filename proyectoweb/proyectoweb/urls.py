@@ -21,7 +21,7 @@ urlpatterns = [
 
     path('servicios/',include('servicios.urls')),
 
-    path('',include('proyectowebapp')),
+    path('',include('proyectowebapp.urls')),
 
 ]
 
